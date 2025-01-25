@@ -1,7 +1,13 @@
 import java.util.Scanner;
 
-public class SafeInput {
-    public static void prettyHeader(String msg) {
+public class SafeInputOBJ {
+    
+    Scanner pipe;
+    
+    public SafeInputOBJ(Scanner pipe) {
+        this.pipe = pipe;
+    }
+    public void prettyHeader(String msg) {
 
         //************************************************************
         //***               Message Centered Here                  ***
@@ -29,7 +35,7 @@ public class SafeInput {
             System.out.println();
         }
     }
-    public static String getNonZeroLenString(Scanner pipe, String prompt) {
+    public String getNonZeroLenString(String prompt) {
 
         String retString = "";
 
@@ -39,7 +45,7 @@ public class SafeInput {
         } while (retString.length() == 0);
         return retString;
     }
-    public static int getInt(Scanner pipe, String prompt) {
+    public int getInt(String prompt) {
 
         int enterInt = 0;
         boolean done = false;
@@ -58,7 +64,7 @@ public class SafeInput {
         System.out.println("You entered: " + enterInt);
         return enterInt;
     }
-    public static double getDouble(Scanner pipe, String prompt) {
+    public double getDouble(String prompt) {
 
         double enterDouble = 0.0;
         boolean done = false;
@@ -76,7 +82,7 @@ public class SafeInput {
         System.out.println("You entered: " + enterDouble);
         return enterDouble;
     }
-    public static int getRangedInt(Scanner pipe, String prompt, int low, int high) {
+    public int getRangedInt(String prompt, int low, int high) {
 
         int enterRangedInt = 0;
         boolean done = false;
@@ -100,7 +106,7 @@ public class SafeInput {
         } while (!done);
         return enterRangedInt;
     }
-    public static double getRangedDouble(Scanner pipe, String prompt, double low, double high) {
+    public double getRangedDouble(String prompt, double low, double high) {
 
         double enterRangedDouble = 0;
         boolean done = false;
@@ -124,7 +130,7 @@ public class SafeInput {
         } while (!done);
         return enterRangedDouble;
     }
-    public static boolean getYNConfirm(Scanner pipe, String prompt) {
+    public boolean getYNConfirm(String prompt) {
 
         boolean finished = false;
         boolean yesNo = false;
@@ -144,7 +150,7 @@ public class SafeInput {
         } while (!finished);
         return yesNo;
     }
-    public static String getRegExString(Scanner pipe, String prompt, String regEx) {
+    public String getRegExString(String prompt, String regEx) {
 
         boolean matches = false;
         String pattern = "";
@@ -160,4 +166,5 @@ public class SafeInput {
         } while (!matches);
         return pattern;
     }
+
 }
