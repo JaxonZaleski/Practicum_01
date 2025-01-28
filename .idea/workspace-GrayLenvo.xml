@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ec5b8e9-23e6-4590-9823-7d79628c5a06" name="Changes" comment="added the toJSON, and getAge methods" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JaxonZaleski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JaxonZaleski/Practicum_01.git",
+    "accountId": "545ac2eb-91c7-44ba-acb2-2daab5110bba"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2rp967yp9b83qN0PgP4J0QEhRIO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.PersonDemo.executor": "Run",
+    "Application.PersonGenerator.executor": "Run",
+    "Application.PersonReader.executor": "Run",
+    "Application.PersonTest.executor": "Run",
+    "Application.ProductReader.executor": "Run",
+    "Application.ProductWriter.executor": "Run",
+    "Downloaded.Files.Path": "C:\\Users\\zales\\OneDrive\\Desktop\\Code\\IntelliJ IDEA Community Edition 2024.2.2\\",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.PersonTest.executor": "Debug",
+    "JUnit.PersonTest.formalName.executor": "Run",
+    "JUnit.PersonTest.fullName.executor": "Run",
+    "JUnit.PersonTest.setFirstName.executor": "Run",
+    "JUnit.PersonTest.setID.executor": "Run",
+    "JUnit.PersonTest.setLastName.executor": "Run",
+    "JUnit.PersonTest.setTitle.executor": "Run",
+    "JUnit.PersonTest.setYOB.executor": "Run",
+    "JUnit.PersonTest.testEquals.executor": "Run",
+    "JUnit.PersonTest.testHashCode.executor": "Run",
+    "JUnit.PersonTest.testToString.executor": "Run",
+    "JUnit.PersonTest.toCSV.executor": "Run",
+    "JUnit.PersonTest.toJSON.executor": "Run",
+    "JUnit.PersonTestTest.executor": "Run",
+    "JUnit.PersonTestTest.formalName.executor": "Run",
+    "JUnit.PersonTestTest.fullName.executor": "Run",
+    "JUnit.PersonTestTest.getAge.executor": "Run",
+    "JUnit.PersonTestTest.setFirstName.executor": "Run",
+    "JUnit.PersonTestTest.setID.executor": "Run",
+    "JUnit.PersonTestTest.setIDSeed.executor": "Run",
+    "JUnit.PersonTestTest.setLastName.executor": "Run",
+    "JUnit.PersonTestTest.setTitle.executor": "Run",
+    "JUnit.PersonTestTest.setYOB.executor": "Run",
+    "JUnit.PersonTestTest.toCSV.executor": "Run",
+    "JUnit.PersonTestTest.toJSON.executor": "Run",
+    "JUnit.PersonTestTest.toXML.executor": "Run",
+    "JUnit.ProductTest.executor": "Run",
+    "JUnit.ProductTest.setCost.executor": "Run",
+    "JUnit.ProductTest.setDescription.executor": "Run",
+    "JUnit.ProductTest.setID.executor": "Run",
+    "JUnit.ProductTest.setName.executor": "Run",
+    "JUnit.ProductTest.testEquals.executor": "Run",
+    "JUnit.ProductTest.testHashCode.executor": "Run",
+    "JUnit.ProductTest.testToString.executor": "Run",
+    "JUnit.ProductTest.toCSV.executor": "Run",
+    "JUnit.ProductTest.toJSON.executor": "Run",
+    "JUnit.ProductTest.toXML.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "<unknown>",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zales/OneDrive/Desktop/Code/IntelliJ IDEA Community Edition 2024.2.2/IdeaProjects/Semester_02/Practicum_01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonTest.testHashCode">
+    <configuration name="PersonTest.setID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="setID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="testHashCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="testHashCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonTest.testHashCode" />
+        <item itemvalue="JUnit.ProductTest.testHashCode" />
+        <item itemvalue="JUnit.ProductTest.testEquals" />
+        <item itemvalue="JUnit.PersonTest.testEquals" />
+        <item itemvalue="JUnit.PersonTest.setID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ec5b8e9-23e6-4590-9823-7d79628c5a06" name="Changes" comment="" />
+      <created>1737244971320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737244971320</updated>
+      <workItem from="1737851226169" duration="3604000" />
+      <workItem from="1737915248503" duration="17301000" />
+    </task>
+    <task id="LOCAL-00001" summary="added the toJSON, and getAge methods">
+      <option name="closed" value="true" />
+      <created>1737830172483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737830172483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit, finished writers and readers" />
+    <MESSAGE value="added the toJSON, and getAge methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the toJSON, and getAge methods" />
+  </component>
+</project>
