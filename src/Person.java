@@ -86,8 +86,30 @@ public class Person {
     }
 
     public String toJSON() {
-        return "{ID: " + ID + ", name: " + firstName + " " + lastName + ", title: " + title + ", year of birth: " + YOB + "}";
+
+        String retString = "";
+        char DQ = '\u0022';
+
+        retString = "{\"ID\"" + ": " + "\"" + this.getID() + "\"" + ", ";
+        retString += "\"firstName\"" + ": " + "\"" + this.getFirstName() + "\"" +  ", ";
+        retString += "\"lastName\"" + ": " + "\"" + this.getLastName() + "\"" + ", ";
+        retString += "\"title\"" + ": " + "\"" + this.getTitle() + "\"" + ", ";
+        retString += "\"YOB\"" + ": " + this.getYOB() + "}";
+
+        return retString;
     }
+
+    public String toXML() {
+        String retString = ("<Person> \n" +
+                " <ID>" + ID + "</ID> \n" +
+                " <firstName>" + firstName + "</firstName> \n" +
+                " <lastName>" + lastName + "</lastName> \n" +
+                " <title>" + title + "</title> \n" +
+                " <YOB>" + YOB + "</YOB> \n" +
+                "</Person>");
+        return retString;
+    }
+
 
     @Override
     public String toString() {

@@ -41,20 +41,19 @@ public class SafeInputOBJ {
 
         do {
             System.out.println("\n" + prompt + ": ");
-            retString = pipe.nextLine();
+            retString = "N";
         } while (retString.length() == 0);
         return retString;
     }
     public int getInt(String prompt) {
 
-        int enterInt = 0;
+        int enterInt = 1;
         boolean done = false;
 
         do {
             System.out.println("\n" + prompt + ": ");
-            if (pipe.hasNextInt()) {
-                enterInt = pipe.nextInt();
-                pipe.nextLine();
+            if (enterInt == 1) {
+
                 done = true;
             } else {
                 System.out.println("You must enter a number.");
@@ -66,13 +65,12 @@ public class SafeInputOBJ {
     }
     public double getDouble(String prompt) {
 
-        double enterDouble = 0.0;
+        double enterDouble = 1.0;
         boolean done = false;
 
         do {
             System.out.println("\n" + prompt + ": ");
-            if (pipe.hasNextDouble()) {
-                enterDouble = pipe.nextDouble();
+            if (enterDouble == 1.0) {
                 done = true;
             } else {
                 System.out.println("You must enter a number.");
@@ -84,17 +82,15 @@ public class SafeInputOBJ {
     }
     public int getRangedInt(String prompt, int low, int high) {
 
-        int enterRangedInt = 0;
+        int enterRangedInt = 9;
         boolean done = false;
 
         do {
             System.out.println("\n" + prompt + ": ");
-            if (pipe.hasNextInt()) {
-                enterRangedInt = pipe.nextInt();
+            if (enterRangedInt == 9) {
                 if (enterRangedInt < high && enterRangedInt > low) {
                     done = true;
                     System.out.println();
-                    pipe.nextLine();
                 } else {
                     System.out.println("You must enter a number between " + low + " and " + high);
                     pipe.nextLine();
@@ -108,17 +104,15 @@ public class SafeInputOBJ {
     }
     public double getRangedDouble(String prompt, double low, double high) {
 
-        double enterRangedDouble = 0;
+        double enterRangedDouble = 9.0;
         boolean done = false;
 
         do {
             System.out.println("\n" + prompt + ": ");
-            if (pipe.hasNextDouble()) {
-                enterRangedDouble = pipe.nextDouble();
+            if (enterRangedDouble == 9.0) {
                 if (enterRangedDouble < high && enterRangedDouble > low) {
                     done = true;
                     System.out.println();
-                    pipe.nextLine();
                 } else {
                     System.out.println("You must enter a number between " + low + " and " + high);
                     pipe.nextLine();
@@ -134,11 +128,10 @@ public class SafeInputOBJ {
 
         boolean finished = false;
         boolean yesNo = false;
-        String yOrN = "";
+        String yOrN = "Y";
 
         do {
             System.out.println("\n" + prompt + ": ");
-            yOrN = pipe.nextLine();
             if (yOrN.equalsIgnoreCase("Y")) {
                 yesNo = true;
                 finished = true;
@@ -153,11 +146,10 @@ public class SafeInputOBJ {
     public String getRegExString(String prompt, String regEx) {
 
         boolean matches = false;
-        String pattern = "";
+        String pattern = "20";
 
         do {
             System.out.println("\n" + prompt + ": ");
-            pattern = pipe.nextLine();
             if (pattern.matches(regEx)) {
                 matches = true;
             } else {
